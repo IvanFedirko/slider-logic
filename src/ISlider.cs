@@ -6,7 +6,7 @@ using System.Linq;
 using System.Reactive.Linq;
 
 
-namespace SliderLogic
+namespace FIV.SliderLogic
 {
     public interface ISlider
     {

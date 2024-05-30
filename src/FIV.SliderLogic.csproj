@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>slider_logic</RootNamespace>
+    <RootNamespace>SliderLogic</RootNamespace>
     <Version>0.0.1.0</Version>
     <RepositoryUrl>https://github.com/IvanFedirko/slider-logic</RepositoryUrl> 
     <RepositoryType>git</RepositoryType> 

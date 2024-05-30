@@ -1,3 +1,3 @@
-# slider-logic
+# FIV.SliderLogic
 
 Encapsulates the behavior logic for a slider component.

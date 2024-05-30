@@ -84,26 +84,7 @@ namespace SliderLogic
         {
             Task observ = Task.Run(async () =>
             {
-                // Observable.FromEventPattern<EventHandler<int>, int>(
-                //        handler => (s, a) => handler(s, a),
-                //        handler => _eventValueChange += handler,
-                //        handler => _eventValueChange -= handler)
-                //        .Select(x => x)
-                //        .Throttle(TimeSpan.FromMilliseconds(50))
-                //        .Subscribe(async (x) =>
-                //         {
-                //             EventValueChange?.Invoke(null, _dafaultValue);
-                //             await Task.Delay(TimeSpan.FromMilliseconds(_timeout));
-                //             // _dafaultValue = _initValue;
-                //             // EventValueChange?.Invoke(null, _dafaultValue);
 
-                //             var val = await StringConstructor();
-                //             Update?.Invoke(null, val);
-
-
-                //         }
-
-                //    );
 
                 var val = await StringConstructor();
                 Update?.Invoke(null, val);
